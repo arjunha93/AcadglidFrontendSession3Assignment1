@@ -1,10 +1,17 @@
 /*
-This will be the style cvontent
+NOTE:Please do not modify anything in this style sheet without sufficien knowledg,
+This is the master style sheet for all the application
+*/
+/*
+Backgroung image addition to html page
 */
 body {
     background-image: url("../img/background.png");
     background-repeat: repeat;
 }
+/*
+Nav bar customisation
+*/
 nav{
     float:right;
     background-color: aquamarine;
@@ -16,6 +23,9 @@ nav{
     left:80%;
     top:10%;
 }
+/*
+Customizing the Link
+*/
 a:link{
     text-decoration: none;
     color: chartreuse;
